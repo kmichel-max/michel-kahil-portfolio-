@@ -440,6 +440,17 @@ h3,
   max-width: 1100px;
 }
 
+/* Suhail sitting on the intro / project-01 boundary line */
+.suhail-sit {
+  position: absolute;
+  right: clamp(0.75rem, 5vw, 3.5rem);
+  bottom: 0;
+  width: clamp(110px, 24vw, 170px);
+  height: auto;
+  z-index: 3;
+  pointer-events: none;
+}
+
 #intro .name {
   max-width: 10ch;
   margin-bottom: 1.25rem;
